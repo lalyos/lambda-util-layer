@@ -1,11 +1,11 @@
 //const util = require('./util');
-const util = require('/opt/util');
+//const util = require('/opt/util');
 
 exports.handler = async (event) => {
     const response = {
         statusCode: 200,
-        body: {id: util.getfakeuid(), user:"lokal-bela"},
-        //body: {id: 777, user:"lokal-bela"},
+        //body: {id: util.getfakeuid(), user:"lokal-bela"},
+        body: {id: 777, user:"lokal-bela"},
     };
     return response;
 };
